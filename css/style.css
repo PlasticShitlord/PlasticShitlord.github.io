@@ -1,6 +1,9 @@
+html{
+  height: 100%
+}
+
 body{
   background-color: blue;
-  background-image: url("..images/background.jpg");
   font-weight: 400;
   position: relative;
 }
