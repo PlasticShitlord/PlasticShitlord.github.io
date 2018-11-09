@@ -38,9 +38,14 @@ var titles = [
     "Mooncake's laser will be fully charged",
     "Gary grows his mustache",
     "The cookies will bake again",
-    "All bets are off",
+    "All bets will be off",
     "KVN will reboot",
-    "Another sadness deposit"
+    "Another sadness deposit",
+    "Final Space will return",
+    "Season Two will depoly",
+    "Launching",
+    "We're ready to go",
+    "The breach will open in"
 ];
 
 function newTitle () {
