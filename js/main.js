@@ -45,7 +45,9 @@ var titles = [
     "Season Two will depoly",
     "Launching",
     "We're ready to go",
-    "The breach will open in"
+    "The breach will open in",
+    "All pieces will be in place",
+    "Season Two will be done"
 ];
 
 function newTitle () {
