@@ -1,58 +1,22 @@
 // Set the date we're counting down to
-var countDownDate = new Date("March 5, 2019 15:37:25").getTime();
-
+var countDownDate = new Date("March 5, 2019 06:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
-
     // Get todays date and time
     var now = new Date().getTime();
-
     // Find the distance between now and the count down date
     var distance = countDownDate - now;
-
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
     // Output the result in an element with id="countdown"
     document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
     + minutes + "m " + seconds + "s ";
-
     // If the count down is over, write some text
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("countdown").innerHTML = "EXPIRED";
     }
 }, 1000);
-
-
-var target = document.getElementById('countdown-title');
-var titles = [
-    "Avocato will not come back",
-    "Body count starts",
-    "You'll be legally allowed to hate Lord Commander",
-    "You will lose it",
-    "H.U.E. will reboot",
-    "Mooncake's laser will be fully charged",
-    "Gary grows his mustache",
-    "The cookies will bake again",
-    "All bets will be off",
-    "KVN will reboot",
-    "Another sadness deposit",
-    "Final Space will return",
-    "Season Two will depoly",
-    "Launching",
-    "We're ready to go",
-    "The breach will open in",
-    "All pieces will be in place",
-    "Season Two will be done"
-];
-
-function newTitle () {
-    var i = (Math.random() * titles.length) | 0;
-    target.innerText = titles[i];
-}
-
-newTitle();
