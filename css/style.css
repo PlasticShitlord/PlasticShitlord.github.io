@@ -74,7 +74,7 @@ main{
 /* footer */
 .links li{
   display: inline-block;
-  margin: 0 10px
+  margin: 0 10px;
   -webkit-transition: all .3s ease-out;
 }
 
