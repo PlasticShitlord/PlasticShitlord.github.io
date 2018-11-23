@@ -1,4 +1,5 @@
-/* main tags */
+/* main tags
+These tags affect the whole styling, edit with caution */
 html, body{
   font-weight: 400;
   position: relative;
@@ -72,12 +73,17 @@ main{
 }
 
 /* footer */
+
+footer{
+  background-color: aqua;
+}
+
+footer .p{
+  font-size: 21px;
+}
+
 .links li{
   display: inline-block;
   margin: 0 10px;
   -webkit-transition: all .3s ease-out;
-}
-
-@media (min-width: 320px) and (max-width: 425px) {
-  footer
 }
