@@ -29,6 +29,13 @@ a{
   text-decoration: none;
 }
 
+ul{
+  margin-bottom: 0;
+}
+
+main{
+  height: 50%;
+}
 /* Countdown */
 
 #countdown{
@@ -128,5 +135,5 @@ a{
 /* Links */
 .links li{
   display: inline-block;
-  margin: 0 25px
+  margin: 0 10px
 }
