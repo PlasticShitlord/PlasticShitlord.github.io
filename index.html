@@ -21,34 +21,10 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 
 	<body>
 			<header>
-				<nav class="navbar navbar-expand-lg navbar-light">
-				    <div class="container mx-auto">
-							<!-- Dropdown button -->
-						 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-							 <span class="navbar-toggler-icon"></span>
-						 </button>
-						 <!-- Dropdown button. May need to convert it into sidebar somehow, for mobile uses. Or just remove it altogether, idk -->
-				    <a class="navbar-brand mx-auto" href="#">Final<span> Space</span></a>
-				   		 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-								<ul class="navbar-nav">
-								  <li class="nav-item">
-								    <a class="nav-link" href="#about">About the show</a>
-								  </li>
-								  <li class="nav-item">
-								    <a class="nav-link" href="#TBS">Watch on TBS</a>
-									<!-- anyone from the US has the TBS link? -->
-								  </li>
-								  <li class="nav-item">
-								    <a class="nav-link" href="https://www.netflix.com/ca/title/80174479">Watch on Netflix</a>
-								  </li>
-								</ul>
-				      </div>
-				    </div>
-				  </nav>
+				<section class="logo"><img src="images/finalspace.png"></section>
 			</header>
 
 			<main>
-				<section class="logo"><img src="images/finalspace.png"></section>
 				<section class="section-padding">
 				<!-- "soon" div is disabled by commenting, as it needs to be displayed when (if) the site launches (i'm still bad at it lmao)
 					If you want to enable it, please, comment "Countdown" div first. -->
@@ -60,27 +36,17 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 					<!-- Use this when the release date is announced. Currently displaying it for test purposes -->
 					<div class="Countdown text-center">
 						<div class="">
-							<h3 id="countdown-title" class="coming-soon"><script src="js/random_titles.js">
-
-							</script> </h3>
+							<h3 id="countdown-title" class="coming-soon"><script src="js/random_titles.js"></script></h3>
 							<p>IN</p>
 						</div>
 							<hgroup id="countdown"><script src="js/countdown.js"></script></hgroup>
 					</div>
-
-					<!-- Use this upon release. Currently empty, i'm a lazy ass and i don't want to fill it in just yet, lol -->
-					<div class="released">
-
-					</div>
 				</div>
-
-
-
-		</div>
-
 			</section>
-
-			</section>
+			<ul class="links text-center">
+				<li><a href="https://www.netflix.com/ca/title/80174479"><img src="images/netflix_logo.png" alt=""></img></a></li>
+				<li><a href=""><img src="images/tbs.png" alt=""></a></li>
+			</ul>
 			</main>
 
 	</body>
