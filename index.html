@@ -5,6 +5,7 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 	<head>
 		<meta charset="UTF-8">
 		<title>Final Space Season 2 Countdown</title>
+		<meta name="viewport" content="width=device-width, initial-scale=0.78">
 		<!-- the first three scripts are mandatory, do not remove -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -21,19 +22,18 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 
 	<body>
 			<header>
-				<section class="logo"><img src="images/finalspace.png"></section>
+				<section class="logo">
+					<div class="container">
+						<img src="images/finalspace.png">
+					</div>
+				</section>
 			</header>
-			<div class="clear"></div>
 			<main>
 				<section class="section-padding">
 					<!-- "soon" div is disabled by commenting, as it needs to be displayed when (if) the site launches (i'm still bad at it lmao)
 						If you want to enable it, please, comment "Countdown" div first. -->
 					<div class="container">
-						<!-- <div class="soon text-center">
-							<hgroup>Coming soon</hgroup>
-						</div> -->
-
-						<!-- Use this when the release date is announced. Currently displaying it for test purposes -->
+												<!-- Use this when the release date is announced. Currently displaying it for test purposes -->
 						<div class="Countdown text-center">
 							<div class="">
 								<h3 id="countdown-title" class="coming-soon"><script src="js/random_titles.js"></script></h3>
@@ -44,12 +44,14 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 					</div>
 				</section>
 			</main>
-			<footer>
-				<ul class="links text-center">
-					<li><a href="https://www.netflix.com/ca/title/80174479"><img src="images/netflix_logo.png" title="Watch on netflix"></img></a></li>
-					<li><a href="https://www.tbs.com/shows/final-space"><img src="images/tbs.png" title="Wath on TBS"></img></a></li>
-					<li><a href="https://www.reddit.com/r/FinalSpace/"><img src="images/reddit.png" title="Visit the subreddit"></i></a></li>
-				</ul>
+			<footer class="footer fixed-bottom">
+				<div class="container">
+					<ul class="links text-center">
+						<li><a href="https://www.netflix.com/ca/title/80174479"><img src="images/netflix_logo.png" title="Watch on netflix"></img></a></li>
+						<li><a href="https://www.tbs.com/shows/final-space"><img src="images/tbs.png" title="Wath on TBS"></img></a></li>
+						<li><a href="https://www.reddit.com/r/FinalSpace/"><img src="images/reddit.png" title="Visit the subreddit"></i></a></li>
+					</ul>
+				</div>
 			</footer>
 	</body>
 </html>

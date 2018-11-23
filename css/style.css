@@ -1,14 +1,13 @@
 /* main tags */
-html{
-  height: 100%;
+html, body{
+  font-weight: 400;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 body{
   background-color: blue;
-  font-weight: 400;
-  position: relative;
-  height: 100%;
 }
 
 h3{
@@ -35,7 +34,9 @@ ul{
 }
 
 main{
-  height: 50%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 /* Countdown */
@@ -70,8 +71,13 @@ main{
     width: 25%;
 }
 
-/* Links */
+/* footer */
 .links li{
   display: inline-block;
   margin: 0 10px
+  -webkit-transition: all .3s ease-out;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  footer
 }
