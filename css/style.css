@@ -124,3 +124,9 @@ a{
   margin-left: 2px!important;
   margin-right: auto!important;
 }
+
+/* Links */
+.links li{
+  display: inline-block;
+  margin: 0 25px
+}
