@@ -1,0 +1,43 @@
+/* RESPONSIVE QUERIES
+In comments you see what device group is using the assigned stylesheet
+To see how the website is seen from each device group:
+1. Right-click the page, press "Inspect the source code"
+2. Press Ctrl+Shift+M
+3. Use the bars above to switch the device group */
+
+
+/* mobile S */
+@media (min-width: 320px) and (max-width: 425px){
+  .section-padding{
+    margin: 42% 0%;
+  }
+  h3{
+    font-size: 24px;
+  }
+}
+
+/* mobile M and L */
+@media (min-width: 426px) and (max-width: 767px) {
+  .section-padding{
+    margin: 37% 0%;
+  }
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .section-padding{
+    margin: 13% 0%;
+  }
+}
+/* laptop */
+@media (min-width: 1024px) and (max-width: 1400.98px) {
+  .section-padding{
+    margin: 7% 0%;
+  }
+}
+/* laptop L */
+@media (min-width: 1400px){
+  .section-padding{
+    margin: 8% 0%;
+  }
+}
