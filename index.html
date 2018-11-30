@@ -36,6 +36,26 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 					</div>
 				</section>
 			</header>
+			<!-- modal form -->
+			<div class="modal fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="modal-title">Co-authors</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          <span aria-hidden="true">&times;</span>
+			        </button>
+			      </div>
+			      <div class="main-list modal-body">
+			        <li>one</li>
+			        <li>two</li>
+			        <li>three</li>
+			        <li>four</li>
+			        <li>five</li>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 			<!-- The entire middle section -->
 			<main>
 				<section class="section-padding">
@@ -60,7 +80,9 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/-->
 						<li><a href="https://www.tbs.com/shows/final-space"><img src="images/tbs.png" title="Wath on TBS"></img></a></li>
 						<li><a href="https://www.reddit.com/r/FinalSpace/"><img src="images/reddit.png" title="Visit the subreddit"></i></a></li>
 					</ul>
-					<div class="credits text-center">Credits<p>here be modal popup for contributors</p></div>
+					<div class="credits text-center">
+						<button type="button" class="credits_button" data-toggle="modal" data-target="#credits">Credits</button>
+					</div>
 				</div>
 			</footer>
 	</body>

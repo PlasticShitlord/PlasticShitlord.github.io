@@ -82,8 +82,43 @@ footer .p{
   font-size: 21px;
 }
 
+.links{
+  padding-left: 12px;
+}
+
 .links li{
   display: inline-block;
   margin: 0 10px;
+  list-style: none;
   -webkit-transition: all .3s ease-out;
+}
+
+.credits_button{
+  background-color: darkslateblue;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: white;
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px #999;
+  cursor: pointer;
+}
+
+.credits_button:active{
+    transform: translateY(4px);
+    box-shadow: 0 0px #999;
+}
+
+.credits_button:hover{
+  background-color: hsl(248, 34%, 56%);
+}
+
+/* main list */
+.main-list{
+  list-style: none;
 }
