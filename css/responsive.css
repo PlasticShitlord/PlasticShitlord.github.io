@@ -7,7 +7,7 @@ To see how the website is seen from each device group:
 
 
 /* mobile S */
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 425px, min-height 302px) {
   .section-padding{
     margin: 42% 0%;
   }
